@@ -1,7 +1,7 @@
 ETL Rest Server
 ===============
 
-An ETL Rest Server used by the good people at [AMPATH](https://github.com/ampath/).
+A docker container for an instance of the [ETL Rest Server](https://github.com/ampath/etl-rest-server) used by the good people at [AMPATH](https://github.com/ampath/).
 
 Building
 --------
