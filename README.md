@@ -22,4 +22,4 @@ Running
 
 ### Step 3. Profit
 
-    curl https://docker:8002
+    curl -k https://docker:8002
