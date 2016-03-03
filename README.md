@@ -3,13 +3,25 @@ ETL Rest Server
 
 A docker container for an instance of the [ETL Rest Server](https://github.com/ampath/etl-rest-server) used by the good people at [AMPATH](https://github.com/ampath/).
 
-Building
---------
+Using Docker Compose 1.6+
+-------------------------
+
+### Step 1. Start containers
+
+    docker-compose up -d
+
+### Step 2. Profit
+
+    curl -k https://docker:8002
+
+Without Docker Compose
+----------------------
+
+## Building
 
     docker build -t etl .
 
-Running
--------
+## Running
 
 ### Step 1. Start a MySQL container
 
